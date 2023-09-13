@@ -1,11 +1,11 @@
-#Getting and Creating Projects
+# Getting and Creating Projects
 
 | Command                                                           | Description                                                                                                                                                                                                                                                                                                 |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `git init`                                                        | To initialize a local Git repository. (Running git init in an existing repository is safe. It will not overwrite things that are already there. The primary reason for rerunning git init is to pick up newly added templates (or to move the repository to another place if --separate-git-dir is given).) |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | To clone a repository into a new directory.                                                                                                                                                                                                                                                                 |
 
-#Basic Snapshotting
+# Basic Snapshotting
 
 | Command                            | Description                                               |
 | ---------------------------------- | --------------------------------------------------------- |
@@ -15,7 +15,7 @@
 | `git commit -m "[commit message]"` | To record changes to the repository.                      |
 | `git rm -r [file-name.txt]`        | To remove files from the working tree and from the index. |
 
-#Branching and Merging
+# Branching and Merging
 
 | Command                                              | Description                                 |
 | ---------------------------------------------------- | ------------------------------------------- |
@@ -35,7 +35,7 @@
 | `git stash`                                          | Stash changes in a dirty working directory. |
 | `git stash clear`                                    | Remove all stashed entries.                 |
 
-#Sharing and Updating Projects
+# Sharing and Updating Projects
 
 | Command                                                                           | Description                                                  |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -48,7 +48,7 @@
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`     | Add a remote repository.                                     |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH.                     |
 
-#Inspection & Comparison
+# Inspection & Comparison
 
 | Command                                    | Description                     |
 | ------------------------------------------ | ------------------------------- |
